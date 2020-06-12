@@ -289,27 +289,7 @@
                                 }
                             ]
                         },
-                        {
-                            "resourceGroupName": "spoke1-vnet-rg",
-                            "vmCount": 1,
-                            "namePrefix": "s1jbl",
-                            "computerNamePrefix": "s1jbl",
-                            "adminUsername": "[replace-with-username]",
-                            "adminPassword": "[replace-with-password]",
-                            "osType": "linux",
-                            "virtualNetwork": {
-                                "resourceGroupName": "spoke1-vnet-rg",
-                                "name": "spoke1-vnet"
-                            },
-                            "nics": [
-                                {
-                                    "isPublic": false,
-                                    "subnetName": "mgmt",
-                                    "privateIPAllocationMethod": "Static",
-                                    "startingIPAddress": "10.1.0.37"
-                                }
-                            ]
-                        },
+                     
                         {
                             "resourceGroupName": "spoke2-vnet-rg",
                             "vmCount": 1,
@@ -330,28 +310,8 @@
                                     "startingIPAddress": "10.2.0.36"
                                 }
                             ]
-                        },
-                        {
-                            "resourceGroupName": "spoke2-vnet-rg",
-                            "vmCount": 1,
-                            "namePrefix": "s2jbl",
-                            "computerNamePrefix": "s2jbl",
-                            "adminUsername": "[replace-with-username]",
-                            "adminPassword": "[replace-with-password]",
-                            "osType": "linux",
-                            "virtualNetwork": {
-                                "resourceGroupName": "spoke2-vnet-rg",
-                                "name": "spoke2-vnet"
-                            },
-                            "nics": [
-                                {
-                                    "isPublic": false,
-                                    "subnetName": "mgmt",
-                                    "privateIPAllocationMethod": "Static",
-                                    "startingIPAddress": "10.2.0.37"
-                                }
-                            ]
                         }
+                 
                     ]
                 },
                 {
